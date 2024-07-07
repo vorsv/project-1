@@ -10,7 +10,7 @@ var db = low(adapter)
 
 const app = express()
 
-const jwtSecret = {process.env.REACT_APP_CODE}
+const jwtSecret = process.env.REACT_APP_CODE
 
 app.use(cors())
 app.use(express.json())
