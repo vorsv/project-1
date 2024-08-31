@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+input[type="button"]{
+    margin: 0;
+    width: height;
+}
+input[type="textbox"]{
+    margin-left: 50%;
+}
+input[type="button"]:onclick{
+    color: red;
+    margin: 0;
+    
+}
