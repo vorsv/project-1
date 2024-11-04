@@ -9,10 +9,31 @@
     </head>
     <body>
         <div>
-            <input type="number"
-                    id="GridSize"
-                    name="GridSize" 
-                    placeholder="Grid" required>
+            <h1>Email Filtering</h1>
+        </div>
+        <div class="container">
+            <form>
+                <div >
+                    <p>Enter your email contents here:</p>
+                    <textarea type="text"
+                            class="textbox"
+                            id="emailContent"
+                            name="GridSize" 
+                            required></textarea>
+                </div>
+                <button type="button" name="Tokenize" onclick="checkSpam()">Tokenize </button>
+            </form>
+            <hr class="rounded">
+            <div>
+                <h3>Tokens:</h3>
+                <div id="ol">
+
+                </div>
+
+            </div>
+            <div>        
+                <p id="result"></p>
+            </div>
         </div>
         <script src="filter.js"> </script>
     </body>
