@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-size: 4em;
+    color: #444444;
+    margin-bottom: 1em;
+}
+h3{
+    font-size: 1.5em;
+    color: #444444;
+    margin-bottom: 1em;
+}
+p{
+    font-size: 2em;
+}
+textarea{
+    font-size: large;
+}
+button{
+    height: 2rem;
+    border: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 10%;
+}
+button{
+    height: 2rem;
+    border: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 10%;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+    
+.textbox{
+    /* text-align: center; */
+    width: 70%;
+    border-radius: 10px;
+    height :40rch !important;
+}
+.container{
+    height: auto;
+    width: 60%;
+    margin: 0 auto;
+    border: 10px solid #b159a9;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center ;   
+}

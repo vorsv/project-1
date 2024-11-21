@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Email Filtering</title>
+        <link rel="stylesheet" href="home.css" />
+    </head>
+    <body>
+        <div>
+            <h1>Email Filtering</h1>
+        </div>
+        <div class="container">
+            <form>
+                <div >
+                    <p>Enter your email contents here:</p>
+                    <textarea type="text"
+                            class="textbox"
+                            id="emailContent"
+                            name="GridSize" 
+                            required></textarea>
+                </div>
+                <button type="button" name="Tokenize" onclick="checkSpm()">Tokenize </button>
+            </form>
+            <hr class="rounded">
+            <div>
+                <h3>Tokens:</h3>
+                <div id="ol">
+
+                </div>
+
+            </div>
+            <div>        
+                <p id="result"></p>
+            </div>
+        </div>
+        <script src="./nat.js"> </script>
+        <!-- <script src="../node_modules/natural/lib/natural/index.js"></script> -->
+
+    </body>
+</html>
